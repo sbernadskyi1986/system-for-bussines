@@ -242,7 +242,7 @@
 
   .pricing__card-button {
     margin-top: auto;
-    max-width: 335px;
+    width: 100%;
     height: 50px;
     font-weight: 400;
     font-size: 18px;
