@@ -2,7 +2,7 @@
   display: none;
   position: absolute;
   top: 25px;
-  left: 330px;
+  left: 270px;
 }
 
 .mobile-navigation-burger {
@@ -54,7 +54,7 @@
 .mobile-navigation-close {
   position: absolute;
   top: 25px;
-  left: 330px;
+  left: 270px;
 }
 
 @media (max-width: 480px) {
