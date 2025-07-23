@@ -235,6 +235,10 @@
     align-items: stretch;
     row-gap: 20px;
   }
+  
+  .pricing__card {
+    padding:20px 10px;
+  }
 
   .pricing__card-button {
     margin-top: auto;
