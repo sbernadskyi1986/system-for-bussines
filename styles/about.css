@@ -1,0 +1,131 @@
+.about__wrapper {
+  margin-top: 130px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.about__picture {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
+.about__picture-image {
+  max-width: 550px;
+  max-height: 580px;
+  object-fit: cover;
+}
+
+.about__content {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__content-subtitle {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 120px;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #151515;
+  border: 1px solid #151515;
+}
+
+.about__content-title {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 57px;
+  letter-spacing: -0.05em;
+  color: #151515;
+}
+
+.about__content-description {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144%;
+  color: #151515;
+}
+
+.about__content-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.about__content-list li {
+  padding-left: 40px;
+  position: relative;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #151515;
+}
+
+.about__content-list li::before {
+  content: url(../assets/svg/square.svg);
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+@media (max-width: 480px) {
+  .about__wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__picture {
+    order: 2;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about__picture-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .about__content {
+    order: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__content-title {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+
+  .about__content-description {
+    margin-top: 25px;
+  }
+
+  .about__content-list {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .about__content-list li {
+    padding-left: 30px;
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,142 @@
+.work__wrapper {
+  margin-top: 200px;
+  display: flex;
+  column-gap: 100px;
+}
+
+.work__content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work__content-subtitle {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 155px;
+  font-weight: 800;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #151515;
+  border: 1px solid #151515;
+}
+
+.work__content-title {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: -0.05em;
+  color: #151515;
+}
+
+.work__content-list {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+}
+
+.work__content-list-item {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.work__content-list-item-img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.work__content-list-item-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.work__content-list-item-content-title {
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: -0.05em;
+  color: #151515;
+}
+
+.work__content-list-item-content-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  color: #151515;
+}
+
+.work__picture {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.work__picture-imag {
+  max-width: 490px;
+  max-width: 700px;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .work__wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work__content-title {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+
+  .work__content-list {
+    margin-top: 50px;
+    row-gap: 25px;
+  }
+
+  .work__content-list-item {
+    column-gap: 8px;
+  }
+
+  .work__content-list-item-img {
+    max-width: 68px;
+    max-height: 68px;
+    object-fit: contain;
+  }
+
+  .work__content-list-item-content {
+    row-gap: 10px;
+  }
+
+  .work__content-list-item-content-title {
+    font-size: 20px;
+  }
+
+  .work__content-list-item-content-description {
+    font-size: 18px;
+  }
+
+  .work__picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .work__picture-imag {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}

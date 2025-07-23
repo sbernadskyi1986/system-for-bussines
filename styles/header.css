@@ -1,0 +1,84 @@
+.header__wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__wrapper-block {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.header__logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.header__navigation {
+  font-weight: 400;
+  font-size: 18px;
+  color: #151515;
+}
+
+.header__navigation-list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.header__navigation-list li:hover {
+  color: lightcoral;
+}
+
+.header__buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+.header__buttons-login {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #151515;
+  width: 145px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header__buttons-login:hover {
+  color: lightcoral;
+}
+
+.header__buttons-sign {
+  display: block;
+  width: 145px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+}
+
+.header__buttons-sign:hover {
+  background-color: lightcoral;
+  color: #151515;
+  border: 2px solid #151515;
+}
+
+@media (max-width: 480px) {
+  .header__navigation-list {
+    display: none;
+  }
+
+  .header__buttons {
+    display: none;
+  }
+}

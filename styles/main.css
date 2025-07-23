@@ -1,0 +1,146 @@
+.main__wrapper {
+  margin-top: 140px;
+  display: flex;
+  column-gap: 45px;
+}
+
+.main__content {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__content-title {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 114%;
+  letter-spacing: -0.06em;
+  color: #151515;
+}
+
+.main__content-description {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  color: #151515;
+}
+
+.main__content-form {
+  margin-top: 40px;
+  display: flex;
+}
+
+.main__content-form input {
+  width: 280px;
+  height: 50px;
+}
+
+.main__content-form input::placeholder {
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  color: #151515;
+}
+
+.main__content-form button {
+  width: 200px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  text-align: center;
+  color: #fff;
+  background-color: #151515;
+  border: none;
+  cursor: pointer;
+}
+
+.main__content-form button:hover {
+  background-color: lightcoral;
+  border: 2px solid #151515;
+  color: #151515;
+}
+
+.main__content-logo {
+  margin-top: 80px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.main__content-logo-visa {
+  max-width: 85px;
+  max-height: 40px;
+  object-fit: cover;
+}
+
+.main__content-logo-mc {
+  max-width: 60px;
+  max-height: 40px;
+  object-fit: cover;
+}
+
+.main__content-logo-pp {
+  max-width: 120px;
+  max-height: 40px;
+  object-fit: cover;
+}
+
+.main__picture {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
+.main__picture-image {
+  max-width: 550px;
+  max-height: 580px;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .main__wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__content-title {
+    font-size: 28px;
+  }
+
+  .main__content-title br {
+    display: none;
+  }
+
+  .main__content-description br {
+    display: none;
+  }
+
+  .main__content-logo {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__picture {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main__picture-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+}

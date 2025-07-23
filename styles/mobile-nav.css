@@ -1,0 +1,64 @@
+.mobile-navigation {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 385px;
+}
+
+.mobile-navigation-burger {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.mobile-navigation-toggler {
+  display: none;
+}
+
+.mobile-navigation-menu {
+  padding-top: 40px;
+  padding-left: 40px;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  translate: 100% 0;
+  transition: all 0.33s;
+}
+
+.mobile-navigation-toggler:checked + .mobile-navigation-menu {
+  translate: 0;
+}
+
+.mobile-navigation-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.mobile-navigation-link {
+  font-family: "Neue Machina", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #151515;
+}
+
+.mobile-navigation-burger-line {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.mobile-navigation-close {
+  position: absolute;
+  top: 25px;
+  left: 385px;
+}
+
+@media (max-width: 480px) {
+  .mobile-navigation {
+    display: block;
+  }
+}
