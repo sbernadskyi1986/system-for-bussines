@@ -235,10 +235,6 @@
     align-items: stretch;
     row-gap: 20px;
   }
-  
-  .pricing__card {
-    padding:20px 15px;
-  }
 
   .pricing__card-button {
     margin-top: auto;
@@ -252,5 +248,10 @@
     border: none;
     background-color: #151515;
     cursor: pointer;
+  }
+
+  .second-card-button {
+    background-color: #fff;
+    color: #151515;
   }
 }

@@ -145,6 +145,10 @@
 }
 
 @media (max-width: 480px) {
+  .footer {
+    width: 100%;
+  }
+
   .footer__wrapper {
     display: flex;
     flex-direction: column;
